@@ -1,0 +1,5 @@
+# Python 3.9-3.12 (mediapipe's pip wheels don't cover other versions)
+opencv-python>=4.9
+mediapipe>=0.10.30
+pyautogui>=0.9.54
+numpy

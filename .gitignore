@@ -1,0 +1,12 @@
+# Python runtime junk
+__pycache__/
+*.pyc
+
+# Virtual environment (~340 MB — rebuild anywhere with: pip install -r requirements.txt)
+.venv/
+
+# Hand-tracking model (~8 MB — auto-downloaded on first run)
+hand_landmarker.task
+
+# OS / editor noise
+Thumbs.db

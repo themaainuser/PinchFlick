@@ -1,0 +1,43 @@
+{
+  "camera_index": 0,
+  "frame_width": 640,
+  "frame_height": 480,
+  "mirror_display": true,
+  "num_hands": 1,
+  "min_detection_confidence": 0.6,
+  "min_presence_confidence": 0.6,
+  "min_tracking_confidence": 0.6,
+
+  "scroll_enabled": true,
+  "scroll_up_fingers": 1,
+  "scroll_down_fingers": 2,
+  "scroll_speed": 5,
+  "scroll_interval_ms": 0,
+  "scroll_confirm_frames": 2,
+  "scroll_invert": false,
+  "scroll_open_hand_ratio": 0.55,
+
+  "seek_enabled": true,
+  "seek_requires_youtube": true,
+  "seek_seconds": 10,
+  "double_tap_window_ms": 550,
+  "seek_cooldown_ms": 0,
+  "tap_side_dead_zone": 0.04,
+  "scroll_suppress_after_seek_ms": 500,
+  "pinch_on_ratio": 0.35,
+  "pinch_off_ratio": 0.55,
+  "seek_keys": {
+    "forward_5": "right",
+    "backward_5": "left",
+    "forward_10": "l",
+    "backward_10": "j"
+  },
+
+  "youtube_title_markers": ["- YouTube", "\u2013 YouTube"],
+  "youtube_check_interval_ms": 200,
+
+  "always_on_top": true,
+  "show_debug_window": false,
+  "pyautogui_failsafe": true,
+  "model_path": null
+}
