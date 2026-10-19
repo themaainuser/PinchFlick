@@ -1,5 +1,14 @@
 # PinchFlick
 
+> **2026-10-19 update:** the Rust port - [../pinchflick-rs](../pinchflick-rs)
+> ([github.com/themaainuser/PinchFlick-rs](https://github.com/themaainuser/PinchFlick-rs)) -
+> is now the **recommended daily driver**: same gestures, same `config.json`,
+> verified feature parity (all 25 selftests ported), ~4.6x smaller install,
+> steady 30 fps, single exe, no Python needed. This Python build remains the
+> verified semantic reference (v1 behavior wins where the two disagree).
+> Measured trade-off on the same machine: the Rust build uses ~21% more CPU
+> and ~14% more RAM.
+
 One webcam app that merges two earlier projects — **`gesture_scroll`**
 (scroll anywhere) and **`air-gesture-youtube-seek`** (seek YouTube videos) —
 into a single tool with no browser extension involved.
